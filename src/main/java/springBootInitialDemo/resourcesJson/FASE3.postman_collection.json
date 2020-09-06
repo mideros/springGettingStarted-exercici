@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "d70061a9-b84a-4e95-8fed-fa1136325762",
+		"name": "FASE3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "helloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipLocal}}:{{portLocal}}/v1/",
+					"host": [
+						"{{ipLocal}}"
+					],
+					"port": "{{portLocal}}",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipLocal}}:{{portLocal}}/v1/Yohanna",
+					"host": [
+						"{{ipLocal}}"
+					],
+					"port": "{{portLocal}}",
+					"path": [
+						"v1",
+						"Yohanna"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloWorldDev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipDev}}:{{portDev}}/v1/",
+					"host": [
+						"{{ipDev}}"
+					],
+					"port": "{{portDev}}",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloNameDev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipDev}}:{{portDev}}/v1/Yohanna",
+					"host": [
+						"{{ipDev}}"
+					],
+					"port": "{{portDev}}",
+					"path": [
+						"v1",
+						"Yohanna"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloWorldPre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipPre}}:{{portPre}}/v1/",
+					"host": [
+						"{{ipPre}}"
+					],
+					"port": "{{portPre}}",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloNamePre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ipPre}}:{{portPre}}/v1/Yohanna",
+					"host": [
+						"{{ipPre}}"
+					],
+					"port": "{{portPre}}",
+					"path": [
+						"v1",
+						"Yohanna"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
